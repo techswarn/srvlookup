@@ -1,6 +1,8 @@
 import srvlookup #pip install srvlookup
 import sys 
-import dns.resolver #pip install dnspython 
+import dns.resolver #pip install dnspython
+import django
+print(django.get_version())
 
 def main(args):
       host = "ab-database-2427a88b.mongo.ondigitalocean.com"
@@ -21,4 +23,22 @@ def main(args):
       message = "Ran DNS checks"
       print(message)
       return {"body": message}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
