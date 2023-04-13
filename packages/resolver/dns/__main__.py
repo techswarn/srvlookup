@@ -5,7 +5,7 @@ import django
 print(django.get_version())
 
 def main(args):
-      host = "ab-database-2427a88b.mongo.ondigitalocean.com"
+      host = "sample.mongo.ondigitalocean.com"
 
       if len(sys.argv) > 1 : 
             host = sys.argv[1] 
